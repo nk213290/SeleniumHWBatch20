@@ -13,7 +13,7 @@ public class WebDriverCommands {
         // obtain title
         String title = driver.getTitle();
         System.out.println("The title of the webpage is "+title);
-        driver.navigate().to("https://www.amazon.com");
+        driver.navigate().to("https://www.syntaxprojects.com");
         title = driver.getTitle();
         System.out.println("The title of the webpage is "+title);
         driver.navigate().back();

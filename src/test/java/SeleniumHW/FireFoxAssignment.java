@@ -7,7 +7,7 @@ public class FireFoxAssignment {
     public static void main(String[] args) throws InterruptedException {
         // Create Object of webdriver
         WebDriver driver = new FirefoxDriver();
-        driver.get("https:www.amazon.com"); // go to webpage
+        driver.get("https:www.syntaxprojects.com"); // go to webpage
         String url = driver.getCurrentUrl();
         driver.manage().window().maximize();
         Thread.sleep(5000);              // wait 5s
